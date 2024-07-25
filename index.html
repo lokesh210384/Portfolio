@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT'S ABOUT ME</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ef79ddc0d8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/lkp.png" class="logo" alt="">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Tools</a></li>
+                    <li><a href="#portfolio">Soical Media</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi!,i'm <span>Lokesh </span><br> Currently pursuing B.Tech in Electrical Engineering at NIt Raipur. I specialize in making innovative website using fronted and backend technologies.</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="aboutcol1">
+                    <img src="images/me.jpg" alt="">
+                </div>
+                <div class="aboutcol2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>Hello visitors , I am lokesh kumar prajapat . I am from Rajasthan ,currently i am doing B.Tech from NIT RAIPUR through Electrical Department. This is my portfolio website where will you know me about my skill and experience.</p>
+                    <div class="tabtitles">
+                        <p class="tablinks activelink" onclick="opentab('skills')">Skills</p>
+                        <p class="tablinks" onclick="opentab('experience')">Project</p>
+                        <p class="tablinks" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tabcontents activetabs" id="skills">
+                        <ul>
+                            <li><span>Experienced Languages</span><br>C++,SQL</li>
+                            <li><span>Intermediate</span><br>Python</li>
+                            <li><span>Frontend Technologies</span><br>HTML5,CSS3,Bootstrap,ReactJs</li>
+                            <li><span>Backend Technologies</span><br>Nodejs,ExpressJs</li>
+                            <li><span>Database</span><br>Mongodb,MySQL</li>
+                            <li><span>Technical Subjects</span><br>Object Oriented Programming,DBMS</li>
+                            <li><span>Other Technologies</span><br>VS Code,GIT,GITHUB</li>
+
+                        </ul>
+                    </div>
+                    <div class="tabcontents " id="experience">
+                        <ul>
+                            <li><span>Food App</span><br>Using HTML,CSS And Javascript,React.Js,Node.Js,Express>js,Mongodb</li>
+                            <li><span>Sorting Visualizer Webapp</span><br>Using Fronted Technologies with React and sorting algorithms</li>
+                            
+                            <li><span>Calculator</span><br>Using HTML,CSS And Javascript</li>
+                            <li><span>Age Calculator</span><br>Using HTML,CSS And Javascript</li>
+                            <li><span>Stopwatch</span><br>Using HTML CSS And Js</li>
+                            <li><span>Weather App</span><br>I have used HTML,CSS,JS and "openweatherapi" Provided by rest api</li>
+                            <li><span>portfolio</span><br>I have used HTML,CSS and JS </li>
+                        </ul>
+                    </div>
+                    <div class="tabcontents" id="education">
+                        <ul>
+                            <li><span>2021-2025</span><br>BTech From Nit Raipur <br>Current CPI - 7.95</li>
+                            <li><span>2019-2020</span><br>Higher Secondary From Navkeevan Science School <br>Percentage-80.40</li>
+                            <li><span>2017-2018</span><br>Secondary School From Central Government Scrool <br>Percentage-80.17</li>
+                            <!-- <li><span>2016-3333</span><br>intershlsslsllks</li> -->
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">Working Tools</h1>
+            <div class="serviceslist">
+                <div>
+                    <h2>For web design</h2>
+                    <p>In Web development i mostly use Visual Studio Code As a compiler , it is a free software and easy to use. <br>For More Knowledge Click on Learn More </p>
+                    <a href="https://en.wikipedia.org/wiki/Visual_Studio_Code#:~:text=Visual%20Studio%20Code%2C%20also%20commonly,code%20refactoring%2C%20and%20embedded%20Git." target="_blank">learn more</a>
+                </div>
+                <div>
+                    <h2>For Coding Pratice</h2>
+                    <p>For DSA pratice questions many platforms are available But i mostly like Leetcode Platform here the language of the question is easy to understand. <br>For more imformation visit on leetcode-</p>
+                    <a href="https://leetcode.com/" target="_blank">Leetcode</a>
+                </div>
+                <div>
+                    <h2>For Article</h2>
+                    <p>For read to interview experience i will suggest you GeeksForGeeks(GFG)</p>
+                    <a href="https://www.geeksforgeeks.org/company-interview-corner/" target="_blank">GFG</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">Social Media Account</h1>
+            <div class="worklist">
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Linkedin</h3>
+                        <p></p>
+                        <a href="https://www.linkedin.com/in/lokesh-kumar-prajapat-786b3720b/" target="_blank">LKD</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Instagram</h3>
+                        <p></p>
+                        <a href="https://www.instagram.com/lokeshprajapat7410/" target="_blank">IG</a>
+                    </div>
+
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Github</h3>
+                        <p></p>
+                        <a href="https://github.com/lokesh210384" target="_blank">Leetcode</a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contactleft">
+                   <h1 subtitle>Contact <Menu></Menu></h1>
+                   <p>lokesh210384@gmail.com</p>
+                   <p>9351334489</p>
+                   <!-- <div class="socialicons">
+                    <a href="#"><i class="fab fa-facebook"> for icon </i></a>
+                   </div> -->
+                   <a href="images/P_resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contactright">
+                    <form  name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="YOUR NAME" required id="name">
+                        <input type="email" name="email" placeholder="YOUR EMAIL" required id="email">
+                        <textarea name="message" id="message"  rows="6" placeholder="your message" ></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <!-- <span id="msg">Hello</span> -->
+
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>********************************************</p>
+        </div>
+    </div>
+    <script src="index.js"></script>
+    <script>
+        var sidemeo = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemeo.style.right = "0";
+        }
+        function closemenu(){
+            sidemeo.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzC8_E-qEoDQvHlrEzqfdM6HggHfOWTZnJtTi9NYtmMhp5S5jk2q0w1PVTWkloUoGFWog/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg  = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    
+    
+    
+</body>
+</html>
